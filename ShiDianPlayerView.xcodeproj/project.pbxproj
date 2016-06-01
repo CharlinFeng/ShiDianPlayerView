@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893A0F171CFEA0C400F798CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A0F161CFEA0C400F798CC /* main.m */; };
+		893A0F1A1CFEA0C400F798CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A0F191CFEA0C400F798CC /* AppDelegate.m */; };
+		893A0F1D1CFEA0C400F798CC /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A0F1C1CFEA0C400F798CC /* BaseVC.m */; };
+		893A0F201CFEA0C400F798CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893A0F1E1CFEA0C400F798CC /* Main.storyboard */; };
+		893A0F221CFEA0C400F798CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893A0F211CFEA0C400F798CC /* Assets.xcassets */; };
+		893A0F251CFEA0C400F798CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893A0F231CFEA0C400F798CC /* LaunchScreen.storyboard */; };
+		893A0F321CFEA0F900F798CC /* WMPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 893A0F2F1CFEA0F900F798CC /* WMPlayer.bundle */; };
+		893A0F331CFEA0F900F798CC /* WMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A0F311CFEA0F900F798CC /* WMPlayer.m */; };
+		89F338BA1CFEA87700BC1761 /* ShiDianLitePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F338B91CFEA87700BC1761 /* ShiDianLitePlayerView.m */; };
+		89F338BE1CFEB6D700BC1761 /* MainTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F338BD1CFEB6D700BC1761 /* MainTVC.m */; };
+		89F338C01CFEB82100BC1761 /* BaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89F338BF1CFEB82100BC1761 /* BaseVC.xib */; };
+		89F338C51CFEB96F00BC1761 /* ListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F338C41CFEB96F00BC1761 /* ListVC.m */; };
+		89F338CD1CFEB9F000BC1761 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F338CB1CFEB9F000BC1761 /* ListCell.m */; };
+		89F338CE1CFEB9F000BC1761 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89F338CC1CFEB9F000BC1761 /* ListCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		893A0F121CFEA0C400F798CC /* ShiDianPlayerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiDianPlayerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893A0F161CFEA0C400F798CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		893A0F181CFEA0C400F798CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		893A0F191CFEA0C400F798CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		893A0F1B1CFEA0C400F798CC /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		893A0F1C1CFEA0C400F798CC /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		893A0F1F1CFEA0C400F798CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893A0F211CFEA0C400F798CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893A0F241CFEA0C400F798CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		893A0F261CFEA0C400F798CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893A0F2F1CFEA0F900F798CC /* WMPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WMPlayer.bundle; sourceTree = "<group>"; };
+		893A0F301CFEA0F900F798CC /* WMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPlayer.h; sourceTree = "<group>"; };
+		893A0F311CFEA0F900F798CC /* WMPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPlayer.m; sourceTree = "<group>"; };
+		89F338B81CFEA87700BC1761 /* ShiDianLitePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiDianLitePlayerView.h; sourceTree = "<group>"; };
+		89F338B91CFEA87700BC1761 /* ShiDianLitePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiDianLitePlayerView.m; sourceTree = "<group>"; };
+		89F338BB1CFEAB5500BC1761 /* WMPlayerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMPlayerDelegate.h; sourceTree = "<group>"; };
+		89F338BC1CFEB6D700BC1761 /* MainTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTVC.h; sourceTree = "<group>"; };
+		89F338BD1CFEB6D700BC1761 /* MainTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTVC.m; sourceTree = "<group>"; };
+		89F338BF1CFEB82100BC1761 /* BaseVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseVC.xib; sourceTree = "<group>"; };
+		89F338C31CFEB96F00BC1761 /* ListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListVC.h; sourceTree = "<group>"; };
+		89F338C41CFEB96F00BC1761 /* ListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListVC.m; sourceTree = "<group>"; };
+		89F338CA1CFEB9F000BC1761 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		89F338CB1CFEB9F000BC1761 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		89F338CC1CFEB9F000BC1761 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893A0F0F1CFEA0C400F798CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893A0F091CFEA0C400F798CC = {
+			isa = PBXGroup;
+			children = (
+				893A0F141CFEA0C400F798CC /* ShiDianPlayerView */,
+				893A0F131CFEA0C400F798CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893A0F131CFEA0C400F798CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893A0F121CFEA0C400F798CC /* ShiDianPlayerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893A0F141CFEA0C400F798CC /* ShiDianPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				893A0F2C1CFEA0D900F798CC /* ShiDianPlayerView */,
+				89F338C11CFEB94B00BC1761 /* Main */,
+				893A0F151CFEA0C400F798CC /* Supporting Files */,
+			);
+			path = ShiDianPlayerView;
+			sourceTree = "<group>";
+		};
+		893A0F151CFEA0C400F798CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893A0F181CFEA0C400F798CC /* AppDelegate.h */,
+				893A0F191CFEA0C400F798CC /* AppDelegate.m */,
+				893A0F1E1CFEA0C400F798CC /* Main.storyboard */,
+				893A0F211CFEA0C400F798CC /* Assets.xcassets */,
+				893A0F231CFEA0C400F798CC /* LaunchScreen.storyboard */,
+				893A0F261CFEA0C400F798CC /* Info.plist */,
+				893A0F161CFEA0C400F798CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		893A0F2C1CFEA0D900F798CC /* ShiDianPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				893A0F2D1CFEA0D900F798CC /* Lib */,
+				89F338B81CFEA87700BC1761 /* ShiDianLitePlayerView.h */,
+				89F338B91CFEA87700BC1761 /* ShiDianLitePlayerView.m */,
+			);
+			path = ShiDianPlayerView;
+			sourceTree = "<group>";
+		};
+		893A0F2D1CFEA0D900F798CC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				893A0F2E1CFEA0F900F798CC /* WMPlayer */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		893A0F2E1CFEA0F900F798CC /* WMPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				893A0F2F1CFEA0F900F798CC /* WMPlayer.bundle */,
+				893A0F301CFEA0F900F798CC /* WMPlayer.h */,
+				89F338BB1CFEAB5500BC1761 /* WMPlayerDelegate.h */,
+				893A0F311CFEA0F900F798CC /* WMPlayer.m */,
+			);
+			path = WMPlayer;
+			sourceTree = "<group>";
+		};
+		89F338C11CFEB94B00BC1761 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				89F338BC1CFEB6D700BC1761 /* MainTVC.h */,
+				89F338BD1CFEB6D700BC1761 /* MainTVC.m */,
+				89F338C21CFEB95300BC1761 /* Base */,
+				89F338C61CFEB97200BC1761 /* List */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		89F338C21CFEB95300BC1761 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				893A0F1B1CFEA0C400F798CC /* BaseVC.h */,
+				893A0F1C1CFEA0C400F798CC /* BaseVC.m */,
+				89F338BF1CFEB82100BC1761 /* BaseVC.xib */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		89F338C61CFEB97200BC1761 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				89F338C71CFEB98200BC1761 /* Controller */,
+				89F338C81CFEB98D00BC1761 /* Model */,
+				89F338C91CFEB99600BC1761 /* View */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		89F338C71CFEB98200BC1761 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89F338C31CFEB96F00BC1761 /* ListVC.h */,
+				89F338C41CFEB96F00BC1761 /* ListVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		89F338C81CFEB98D00BC1761 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		89F338C91CFEB99600BC1761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89F338CA1CFEB9F000BC1761 /* ListCell.h */,
+				89F338CB1CFEB9F000BC1761 /* ListCell.m */,
+				89F338CC1CFEB9F000BC1761 /* ListCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893A0F111CFEA0C400F798CC /* ShiDianPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893A0F291CFEA0C400F798CC /* Build configuration list for PBXNativeTarget "ShiDianPlayerView" */;
+			buildPhases = (
+				893A0F0E1CFEA0C400F798CC /* Sources */,
+				893A0F0F1CFEA0C400F798CC /* Frameworks */,
+				893A0F101CFEA0C400F798CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiDianPlayerView;
+			productName = ShiDianPlayerView;
+			productReference = 893A0F121CFEA0C400F798CC /* ShiDianPlayerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893A0F0A1CFEA0C400F798CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Charlin;
+				TargetAttributes = {
+					893A0F111CFEA0C400F798CC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 893A0F0D1CFEA0C400F798CC /* Build configuration list for PBXProject "ShiDianPlayerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893A0F091CFEA0C400F798CC;
+			productRefGroup = 893A0F131CFEA0C400F798CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893A0F111CFEA0C400F798CC /* ShiDianPlayerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893A0F101CFEA0C400F798CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893A0F321CFEA0F900F798CC /* WMPlayer.bundle in Resources */,
+				89F338CE1CFEB9F000BC1761 /* ListCell.xib in Resources */,
+				893A0F251CFEA0C400F798CC /* LaunchScreen.storyboard in Resources */,
+				89F338C01CFEB82100BC1761 /* BaseVC.xib in Resources */,
+				893A0F221CFEA0C400F798CC /* Assets.xcassets in Resources */,
+				893A0F201CFEA0C400F798CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893A0F0E1CFEA0C400F798CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893A0F1D1CFEA0C400F798CC /* BaseVC.m in Sources */,
+				89F338CD1CFEB9F000BC1761 /* ListCell.m in Sources */,
+				89F338C51CFEB96F00BC1761 /* ListVC.m in Sources */,
+				893A0F1A1CFEA0C400F798CC /* AppDelegate.m in Sources */,
+				89F338BA1CFEA87700BC1761 /* ShiDianLitePlayerView.m in Sources */,
+				893A0F331CFEA0F900F798CC /* WMPlayer.m in Sources */,
+				89F338BE1CFEB6D700BC1761 /* MainTVC.m in Sources */,
+				893A0F171CFEA0C400F798CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		893A0F1E1CFEA0C400F798CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893A0F1F1CFEA0C400F798CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		893A0F231CFEA0C400F798CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893A0F241CFEA0C400F798CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893A0F271CFEA0C400F798CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		893A0F281CFEA0C400F798CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893A0F2A1CFEA0C400F798CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShiDianPlayerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.ShiDianPlayerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		893A0F2B1CFEA0C400F798CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShiDianPlayerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShiDian.ShiDianPlayerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893A0F0D1CFEA0C400F798CC /* Build configuration list for PBXProject "ShiDianPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893A0F271CFEA0C400F798CC /* Debug */,
+				893A0F281CFEA0C400F798CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893A0F291CFEA0C400F798CC /* Build configuration list for PBXNativeTarget "ShiDianPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893A0F2A1CFEA0C400F798CC /* Debug */,
+				893A0F2B1CFEA0C400F798CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893A0F0A1CFEA0C400F798CC /* Project object */;
+}
